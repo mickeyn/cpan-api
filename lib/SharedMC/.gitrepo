@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = git@github.com:CPAN-API/MetaShare.git
+	branch = master
+	commit = 91e5a6d0f115a34a8800666fa115390f742364ee
+	parent = 326224c78ff3524f986f61bb98f9f9c6a4e19454
+	cmdver = 0.3.0
