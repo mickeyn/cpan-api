@@ -12,7 +12,7 @@ use MetaCPAN::Types qw(:all);
 use Moose::Role;
 
 with 'MetaCPAN::Role::Logger';
-with 'MetaCPAN::Role::Fastly';
+with 'SharedMC::Role::Fastly';
 
 has 'cpan' => (
     is         => 'rw',

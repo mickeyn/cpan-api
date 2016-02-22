@@ -1,16 +1,13 @@
-package MetaCPAN::Role::Fastly;
+package SharedMC::Role::Fastly;
 
-#### NOTE: This is a copy of MetaCPAN::Web::Role::Fastly
-####       We should unify these some how!
-
-use Moose::Role;
 use Net::Fastly;
 
 use MetaCPAN::Types qw(:all);
+use Moose::Role;
 
 =head1 NAME
 
-MetaCPAN::Web::Role::Fastly - Methods for fastly intergration
+SharedMD::Role::Fastly - Methods for fastly intergration
 
 =head1 METHODS
 
